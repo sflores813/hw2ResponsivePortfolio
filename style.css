@@ -1,4 +1,11 @@
-/* Style inputs with type="text", select elements and textareas */
+
+body{
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5a5d344cb7411c8b282df032/1516478046280-AHLC4R6E52XOF4AHZU9E/ke17ZwdGBToddI8pDm48kCDnvzZDSTqrZYB0qToMReZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0psyQQR5KrxgIm8QcotvsYtvUHnJsni5ivcu2RP0UO8zWN1uCXtq4fHLhtl5lYmmpQ/bruno-soares-284974.jpg?format=2500w);
+  background-size: cover;
+}
+
+/*css for the contact page*/
+
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
@@ -13,19 +20,19 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
+/* Changes the submit button */
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
+  background-color: lightslategray;
+  color: whitesmoke; 
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* changes color of the submit bar when hovering over it*/
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: navy;
 }
 
 /* Add a background color and some padding around the form */
@@ -33,12 +40,14 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: lightblue;
   padding: 20px;
+  font-family: 'Gochi Hand', cursive;
 }
 
 /*portfolio css*/
 
 * {
     box-sizing: border-box;
+    
   }
   
   body {
