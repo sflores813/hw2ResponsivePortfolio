@@ -6,7 +6,7 @@ body{
 
 /*css for the contact page*/
 
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: 'Permanent Marker', cursive;}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
@@ -37,11 +37,13 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .container {
+  background: rgba(142, 241, 239, 0.5); /*almost see through background*/
   border-radius: 5px;
-  background-color: lightblue;
   padding: 20px;
-  font-family: 'Gochi Hand', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 900px , bolder;
 }
+  
 
 /*portfolio css*/
 
@@ -51,9 +53,10 @@ input[type=submit]:hover {
   }
   
   body {
-    background-color: #f1f1f1;
+    background-color: lightblue;
     padding: 20px;
-    font-family: Arial;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: ;
   }
   
   /* Center website */
@@ -63,6 +66,7 @@ input[type=submit]:hover {
   }
   
   h1 {
+    
     font-size: 50px;
     word-break: break-all;
   }
@@ -92,7 +96,7 @@ input[type=submit]:hover {
   
   /* Content */
   .content {
-    background-color: white;
+    background: rgba(142, 241, 239, 0.5); /*almost see through background*/
     padding: 10px;
   }
   
